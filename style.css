@@ -73,8 +73,8 @@ img{
 
 main{
     display:grid;
-    grid-template-columns: auto;
-    justify-self: center;
+    grid-template-columns: 1fr;
+   justify-self: center;
     max-width: 1200px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -156,6 +156,76 @@ image-introducao,image-introducao {
     align-self: end; 
 }
 
+/*Sessão Usuarios*/
+.container-users {
+    display: grid;
+    margin: 60px auto;
+    gap: 48px;
+}
+
+.container-users p{
+    text-align: center;
+    color: rgba(5, 0, 56, 0.60);
+}
+
+.logo-users {
+    display: flex;
+    gap: 20px;
+   
+
+}
+
+.logo-users img{
+    margin: 0px !important;
+}
+
+/*Sessão Colaboração*/
+.container-colaboracao{
+    display: grid;
+    gap: 40px;
+    padding: 25px 40px;
+    margin-bottom: 40px;
+}
+
+.container-colaboracao h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -1;
+    color: rgba(5,  0 , 56,1);
+}
+
+.descricao-colaboracao{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+
+}
 
 
+.item-colaracao h3 {
+    margin-bottom:29px ;
+    color: rgba(5,  0 , 56,1); 
+}
 
+.item-colaracao p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgba(5, 0, 56, 0.60);
+    
+}
+
+.letra-azul{
+    text-decoration: none;
+    color: #4262FF;
+}
+
+.botao-cadastro03{
+    justify-self: center;
+    text-decoration: none;
+    background: #4262FF;
+    padding: 12px 20px;
+    border-radius:30px;
+    color: aliceblue;
+}

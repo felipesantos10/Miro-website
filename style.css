@@ -351,6 +351,7 @@ image-introducao,image-introducao {
     margin-top: 32px;
     margin-bottom: 26px;
 }
+
 .buil-work-descricao li{
    
     border: 1px solid #F2F2F2;
@@ -409,3 +410,69 @@ image-introducao,image-introducao {
     text-decoration: none;
     display: block;
 }
+
+.til-par-link-teams li{
+    list-style: none;
+}
+
+.til-par-link-descricao{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    
+}
+
+
+.buil-teams-descricao{
+    display: flex; 
+    width: 100%;
+    list-style: none;
+    gap: 12px;   
+    margin-top: 32px;
+    margin-bottom: 26px;
+
+}
+
+.buil-teams-descricao li{
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    
+}
+
+.buil-teams-descricao a{
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #050038;
+}
+
+.buil-teams-descricao li:nth-child(1){
+    background-color: #F2F2F2;
+}
+
+
+.buil-way-teams {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 40px; 
+}
+
+.tools{
+    margin-top:120px;
+}
+
+.tools p{
+    font-size: 1.125rem;
+    color: rgba(5,  0, 56, 0.60);
+    margin-bottom: 15px;
+
+}
+
+.img-tools {
+    display: flex;
+    gap: 28px;
+}
+
